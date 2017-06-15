@@ -907,4 +907,4 @@ Stack trace:
 #52 /home/vagrant/amak/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(150): Illuminate\Pipeline\Pipeline->then(Object(Closure))
 #53 /home/vagrant/amak/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(117): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #54 /home/vagrant/amak/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#55 {main}  
+#55 {main}
