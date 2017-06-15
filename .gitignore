@@ -1,0 +1,12 @@
+/vendor
+/node_modules
+.idea/
+.vagrant/
+*~
+.DS_Store
+Homestead.yaml
+Homestead.json
+composer.lock
+.ftpconfig
+*.sql
+*.zip

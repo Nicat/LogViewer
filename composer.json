@@ -1,0 +1,21 @@
+{
+  "name": "nijatasadov/property-guru",
+  "authors": [
+    {
+      "name": "Nijat Asadov",
+      "email": "nijatasadov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "phroute/phroute": "^2.1",
+    "phpfastcache/phpfastcache": "^6.0"
+  },
+  "require-dev": {
+    "laravel/homestead": "^4.0",
+    "phpunit/phpunit": "~4.0"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  }
+}

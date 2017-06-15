@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #eef0f4;
+}
+#main-content {
+    width: 80%;
+    margin: 30px auto;
+}
+.card {
+    position: relative;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.07), 1px 2px 5px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.07), 1px 2px 5px 0 rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+}
+.card .card-header {
+    padding: 16px;
+    background-color: white;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+    background: #673ab7;
+}
+.card .card-content {
+    padding: 35px 30px;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    box-sizing: border-box;
+}
+.card .card-title {
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0;
+}
+.card .btn {
+    background: #673ab7;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #673ab7;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 100;
+}
+.file-list-content {
+    background-color: #FFFFFF;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-width: 1px 0px;
+}
+.hr-line-dashed {
+    border-bottom: 1px dashed #E7EAEC;
+    height: 1px;
+    margin: 20px 0;
+}
+.line {
+    border-bottom: 1px dashed #E7EAEC;
+    margin: 20px 0;
+    padding-bottom: 15px;
+}
+.line-number {
+    background: #673ab7;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 6px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+a[data-click="false"], a [data-click=false] {
+    color: #cccccc !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
