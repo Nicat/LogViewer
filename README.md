@@ -10,7 +10,8 @@ To find out how to use LogViewer read [Documentation](http://property-guru.nijat
 
 ## Installation
 
-Just clone the repo or [download](http://property-guru.nijatasadov.com/download/project.zip)
+1. [Download](http://property-guru.nijatasadov.com/download/project.zip) full project
+2. OR Clone the Repo and run `vagrant up` on root directory
 
 ## Examples
 
