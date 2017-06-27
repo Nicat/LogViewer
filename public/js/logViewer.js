@@ -59,7 +59,11 @@ var LogViewer = {
         if (this._action === 'next') {
             increase = 1;
         } else {
-            increase = 3;
+            if (!this._storage.prev) {
+                increase = 2;
+            } else {
+                increase = 3;
+            }
             this._action = 'next';
         }
         this._page += increase;
@@ -80,7 +84,11 @@ var LogViewer = {
         if (this._action === 'prev') {
             decrease = 1;
         } else {
-            decrease = 3;
+            if (!this._storage.next) {
+                decrease = 2;
+            } else {
+                decrease = 3;
+            }
             this._action = 'prev';
         }
         this._page -= decrease;
@@ -102,7 +110,6 @@ var LogViewer = {
             this.setLines();
             this.pagination(true, this._page !== -1, true, true);
         }
-
 
         return this;
     },

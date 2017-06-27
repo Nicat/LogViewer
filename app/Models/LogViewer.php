@@ -103,7 +103,7 @@ class LogViewer
                         $lines = $this->countLines($path);
                         $extra = max(0, $lines - $limit);
                         $result['prev'] = null;
-                        $result['page'] = floor($lines / $limit);
+                        $result['page'] = floor($lines / $limit) - 1;
                     } else {
                         $handle = fopen($path, 'r');
                     }
