@@ -1,4 +1,4 @@
-# Log Viewer - Property Guru Task
+# Log Viewer
 
 Log Viewer requires PHP >= 7.0.
 ## About
